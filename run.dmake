@@ -1,0 +1,5 @@
+if test -e "user.dmake"
+then
+    . user.dmake
+fi
+run_options='-p 4000 -v '$rootdir'/config.json:/go/src/github.com/emersion/neutron/config.json'

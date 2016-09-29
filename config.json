@@ -1,0 +1,26 @@
+{
+	"Memory": {
+		"Enabled": true,
+		"Populate": true,
+		"Domains": ["emersion.fr"]
+	},
+	"Imap": {
+		"Enabled": true,
+		"Hostname": "mail.gandi.net",
+		"Tls": true,
+		"Suffix": "@emersion.fr"
+	},
+	"Smtp": {
+		"Enabled": true,
+		"Hostname": "mail.gandi.net",
+		"Port": 587,
+		"Suffix": "@emersion.fr"
+	},
+	"Disk": {
+		"Enabled": true,
+		"Keys": { "Directory": "db/keys" },
+		"Contacts": { "Directory": "db/contacts" },
+		"UsersSettings": { "Directory": "db/settings" },
+		"Addresses": { "Directory": "db/addresses" }
+	}
+}
